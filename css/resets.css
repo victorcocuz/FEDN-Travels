@@ -1,0 +1,29 @@
+html {
+    overflow-y: scroll;
+    width: 100%;
+    background-color: rgb(234, 253, 255);
+}
+
+* {
+    font-family: "Nunito", sans-serif;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}

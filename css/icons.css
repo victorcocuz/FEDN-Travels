@@ -1,0 +1,42 @@
+/* Header & Navigation */
+.header-image {
+    display: block;
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0),  rgba(0,0,0,0), rgba(0,0,0,0.5), rgba(0,0,0,1)),
+    url("../images/southend_01.jpg");
+    background-size: cover;
+    width: 100%;
+    height: calc(9/16 * 100vw);
+}
+
+.header-image-post {
+    display: block;
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0),  rgba(0,0,0,0), rgba(0,0,0,0.5), rgba(0,0,0,1)),
+    url("../images/scotland_01.jpg");
+    background-size: cover;
+    width: 100%;
+    height: calc(9/16 * 100vw);
+}
+
+/* Author */
+.author-avatar {
+    grid-area: avatar;
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    padding: 0 1rem 0 0;
+}
+
+/* Articles */
+.card-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
